@@ -37,10 +37,10 @@
 
         raise_layer {
             bindings = <
- &kp TILDE  &kp EXCL         &kp AT  &kp HASH  &kp DLLR  &kp PRCNT       &kp CARET         &kp AMPS       &kp STAR           &kp LPAR   &kp RPAR      &kp PIPE
-    &trans    &trans    &kp PAGE_UP   &kp DEL    &trans     &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE      &kp UNDER           &kp PLUS  &kp COLON  &kp QUESTION
-    &trans    &trans  &kp PAGE_DOWN    &trans    &trans     &trans          &trans           &trans  &kp LESS_THAN   &kp GREATER_THAN     &trans
-&bt BT_CLR                   &trans    &trans    &reset                &bootloader           &trans         &trans  &kp DOUBLE_QUOTES
+ &kp TILDE  &kp EXCL         &kp AT  &kp HASH    &kp DLLR  &kp PRCNT       &kp CARET         &kp AMPS       &kp STAR           &kp LPAR   &kp RPAR      &kp PIPE
+    &trans    &trans    &kp PAGE_UP   &kp DEL      &trans     &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE      &kp UNDER           &kp PLUS  &kp COLON  &kp QUESTION
+    &trans    &trans  &kp PAGE_DOWN    &trans      &trans     &trans          &trans           &trans  &kp LESS_THAN   &kp GREATER_THAN     &trans
+&bt BT_CLR                   &trans    &trans  &sys_reset                &bootloader           &trans         &trans  &kp DOUBLE_QUOTES
             >;
         };
 
